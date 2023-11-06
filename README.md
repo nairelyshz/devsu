@@ -1,10 +1,21 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Prerequisitos y versiones
 
-# Getting Started
+```bash
+# using npm
+node v18.16.1
+react native 0.76.8
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+```
 
-## Step 1: Iniciar Metro server
+# Inicio
+
+```bash
+# using npm
+npm i
+
+```
+
+## Paso 1: Iniciar Metro server
 
 ```bash
 # using npm
@@ -14,9 +25,9 @@ npm start
 yarn start
 ```
 
-## Step 2: Iniciar aplicación
+## Paso 2: Iniciar aplicación
 
-### For Android
+### Para Android
 
 ```bash
 npm run android
@@ -25,7 +36,7 @@ npm run android
 yarn android
 ```
 
-### For iOS
+### Para iOS
 
 ```bash
 # using npm
