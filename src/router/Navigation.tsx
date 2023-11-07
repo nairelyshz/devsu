@@ -1,13 +1,8 @@
 import React from 'react';
-import {StackNavigation} from '../../../../vetmergencia/vetsiapp/src/navigator/StackNavigator';
 import {createStackNavigator} from '@react-navigation/stack';
-import {
-  NavigationContainer,
-  useNavigationContainerRef,
-} from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
 import ProductsList from '../views/ProductsList';
-import {Text, View} from 'react-native';
-import {colors, textStyle} from '../styles/globalStyle';
+import {colors} from '../styles/globalStyle';
 import AddProduct from '../views/AddProduct';
 import ProductDetails from '../views/ProductDetails';
 

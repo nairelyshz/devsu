@@ -1,6 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {Text, ToastAndroid, View} from 'react-native';
-import {FinancialProducts} from '../api/financialProducts.service';
 import {services} from '../api';
 import Button from '../components/Common/Button';
 import {generalStyle} from '../styles/globalStyle';
